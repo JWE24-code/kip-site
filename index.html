@@ -416,7 +416,7 @@ footer{background:var(--ink);color:var(--cream);padding:90px 0 46px;overflow:hid
 <header class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow reveal"><span class="dot"></span> v0.3.7 · a fork of Logseq with an LLM retrieval layer · <a href="https://github.com/JWE24-code/kip-app" target="_blank" rel="noopener">github↗</a></p>
+      <p class="eyebrow reveal"><span class="dot"></span> v0.4.2 · a fork of Logseq with an LLM retrieval layer · <a href="https://github.com/JWE24-code/kip-app" target="_blank" rel="noopener">github↗</a></p>
       <h1 class="reveal" style="transition-delay:.12s">Don’t browse your notes.<br><em>Peck</em> them. <span class="yhl">Get answers.</span></h1>
       <p class="hero-sub reveal" style="transition-delay:.24s">Kip is the full Logseq editor — Markdown notes, journals, whiteboards, block references, unchanged — plus a layer that turns documents you drop in into a <b>cross-linked wiki you can ask questions of</b>. It opens straight into a chat prompt; the editor is a mode you toggle into.</p>
       <div class="cta-row reveal" style="transition-delay:.36s">
@@ -464,7 +464,7 @@ footer{background:var(--ink);color:var(--cream);padding:90px 0 46px;overflow:hid
       <div class="step reveal">
         <span class="n">EGG</span>
         <h3>Drop it in</h3>
-        <p>Put any <code>.md</code> or <code>.txt</code> file into <code>eggs/</code> inside your graph folder. That’s the whole import flow.</p>
+        <p>Drag a Markdown, text, Word, Excel, PowerPoint or PDF file onto the window — or drop it in <code>eggs/</code>. Office and PDF files are converted to Markdown on the way in.</p>
       </div>
       <div class="step reveal" style="transition-delay:.1s">
         <span class="n">HATCH</span>
@@ -546,13 +546,14 @@ graph/
 
     <div class="feat reveal">
       <div class="feat-txt">
-        <span class="feat-tag">reminders</span>
+        <span class="feat-tag">reminders &amp; calendar</span>
         <h3>It remembers <em>before</em> you need it.</h3>
         <p>Tell Kip what’s coming in plain words — it sets an OS notification and, when the moment approaches, hands you a prep brief pulled from your own notes.</p>
         <ul>
           <li><b>“I have a meeting with Acme on Friday at 15h”</b> — done, that’s the whole interface</li>
           <li><b>OS notification</b> beforehand, no app-checking required</li>
           <li><b>Prep brief</b> assembled from the relevant pages in your nest</li>
+          <li><b>Or subscribe a calendar</b> — a Google / Outlook / Fastmail ICS link pulls your events in the same way</li>
         </ul>
       </div>
       <div class="panel">
@@ -575,6 +576,7 @@ Prep brief from your nest:
         <ul>
           <li><b>Local provider (Ollama)</b> keeps everything on-device</li>
           <li><b>Your graph is a plain folder</b> — plain Markdown, no lock-in</li>
+          <li><b>Optional Dropbox sync</b> for the graph across machines — your notes sync; the search cache and API keys stay on the device</li>
           <li>Honest bit: <code>.henhouse/llm.json</code> stores API keys in <b>plaintext</b> — keep that folder out of synced locations and version control</li>
         </ul>
       </div>
@@ -634,7 +636,7 @@ Prep brief from your nest:
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="sec-num">05 — said plainly</span>
-      <h2>v0.3: early, rough, and <em>looking for feedback</em>.</h2>
+      <h2>v0.4: early, rough, and <em>looking for feedback</em>.</h2>
       <p>Kip is a personal project at the beginning of its life. Here’s exactly what that means, so you can decide with open eyes.</p>
     </div>
     <div class="honest-grid">
@@ -642,7 +644,7 @@ Prep brief from your nest:
       <div class="honest-card reveal" style="transition-delay:.06s"><span class="x">✕</span><p><b>Self-issued signing certificate.</b> There's an installer and in-app updates now, but SmartScreen still warns until there's a real cert.</p></div>
       <div class="honest-card reveal" style="transition-delay:.12s"><span class="x">✕</span><p><b>Needs an LLM provider configured</b> — without one, Hatch and Peck don’t work.</p></div>
       <div class="honest-card reveal" style="transition-delay:.18s"><span class="x">✕</span><p><b>Skills run unsandboxed</b> with your privileges — one you add yourself is like running a shell script.</p></div>
-      <div class="honest-card reveal" style="transition-delay:.24s"><span class="x">✕</span><p><b>Expect bugs and breaking changes.</b> It’s v0.3, and it means it.</p></div>
+      <div class="honest-card reveal" style="transition-delay:.24s"><span class="x">✕</span><p><b>Expect bugs and breaking changes.</b> It’s v0.4, and it means it.</p></div>
       <div class="honest-card reveal" style="transition-delay:.3s"><span class="x">→</span><p><b>Which is where you come in.</b> Bugs and ideas go to <a href="https://github.com/JWE24-code/kip-app/issues" target="_blank" rel="noopener" style="color:var(--rooster);border-bottom:1px solid currentColor">Issues</a>; questions and general feedback to <a href="https://github.com/JWE24-code/kip-app/discussions" target="_blank" rel="noopener" style="color:var(--rooster);border-bottom:1px solid currentColor">Discussions</a>.</p></div>
     </div>
   </div>
@@ -672,7 +674,7 @@ Prep brief from your nest:
       </div>
       <div>
         <h4>get kip</h4>
-        <a href="https://github.com/JWE24-code/kip-app/releases/latest" target="_blank" rel="noopener">Download v0.3.7</a>
+        <a href="https://github.com/JWE24-code/kip-app/releases/latest" target="_blank" rel="noopener">Download v0.4.2</a>
         <a href="https://github.com/JWE24-code/kip-app" target="_blank" rel="noopener">Source code</a>
         <a href="https://github.com/JWE24-code/kip/blob/main/docs/GETTING-STARTED.md" target="_blank" rel="noopener">Getting-started guide</a>
       </div>
