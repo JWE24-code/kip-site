@@ -68,7 +68,7 @@ export default function Professional() {
               <span className="pf-toggle-label">{dark ? 'dark' : 'light'}</span>
             </div>
             <div className="pf-ver">
-              v0.4 · free · agpl-3.0
+              v0.5 · free · agpl-3.0
               <br />
               windows 10/11 x64 · linux x64
               <br />
@@ -87,8 +87,8 @@ export default function Professional() {
             </h1>
             <p className="pf-lead">
               Every document you feed Kip becomes part of a cross-linked wiki — <b>the nest</b> — built from entity,
-              concept and source pages that cite each other. It opens straight into a chat prompt; the editor is a mode
-              you toggle into.
+              concept, source and person pages that cite each other. It opens straight into a chat prompt; the editor is
+              a mode you toggle into.
             </p>
             <div className="pf-pills">
               <a className="pf-pill pf-pill-acc" href="#pf-install">↓ Download Kip</a>
@@ -121,8 +121,10 @@ export default function Professional() {
                 <span className="pf-row-no">HATCH</span>
                 <h3>It becomes pages</h3>
                 <p>
-                  Hatch sources turns each document into a set of linked <code>entity</code>, <code>concept</code> and{' '}
-                  <code>source</code> pages — the nest.
+                  Hatch sources turns each document into a set of linked <code>entity</code>, <code>concept</code>,{' '}
+                  <code>source</code> and <code>person</code> pages — the nest. A named person becomes a{' '}
+                  <code>person</code> page with their email, role and org, and shows up in the People panel — your
+                  addressbook.
                 </p>
               </div>
               <div className="pf-row">
@@ -204,6 +206,14 @@ export default function Professional() {
                   <li>Notes sync; search cache and API keys stay on-device</li>
                 </ul>
               </div>
+              <div>
+                <h3>People &amp; the addressbook</h3>
+                <p>
+                  Kip recognises the people in what you read and file them as <code>person</code> pages — name, email,
+                  org, role — deduped by email. The People panel is a filterable addressbook, and a follow-up like
+                  &ldquo;check back with Joeri on Friday&rdquo; links straight back to the person&rsquo;s page.
+                </p>
+              </div>
             </div>
           </section>
 
@@ -265,7 +275,7 @@ export default function Professional() {
           <section className="pf-block" id="pf-honest">
             <div className="pf-fade">
               <span className="pf-sec-no">05</span>
-              <h2 className="pf-h2">v0.4: early, rough, and looking for feedback</h2>
+              <h2 className="pf-h2">v0.5: early, rough, and looking for feedback</h2>
               <p className="pf-h2-sub">
                 Kip is a personal project at the beginning of its life. Here&rsquo;s exactly what that means, so you can
                 decide with open eyes.
@@ -276,7 +286,7 @@ export default function Professional() {
               <div className="pf-tr"><span className="pf-x">✕</span><span><b>Self-issued signing certificate.</b> There&rsquo;s an installer and in-app updates now, but SmartScreen still warns until there&rsquo;s a real cert.</span></div>
               <div className="pf-tr"><span className="pf-x">✕</span><span><b>Needs an LLM provider configured</b> — without one, Hatch and Peck don&rsquo;t work.</span></div>
               <div className="pf-tr"><span className="pf-x">✕</span><span><b>Skills run unsandboxed with your privileges</b> — one you add yourself is like running a shell script.</span></div>
-              <div className="pf-tr"><span className="pf-x">✕</span><span><b>Expect bugs and breaking changes.</b> It&rsquo;s v0.4, and it means it.</span></div>
+              <div className="pf-tr"><span className="pf-x">✕</span><span><b>Expect bugs and breaking changes.</b> It&rsquo;s v0.5, and it means it.</span></div>
               <div className="pf-tr"><span className="pf-x">✕</span><span><b>Honest bit:</b> <span className="pf-inline-code">.henhouse/llm.json</span> stores API keys in plaintext — keep that folder out of synced locations and version control.</span></div>
             </div>
             <p className="pf-fade" style={{ color: 'var(--mut)', fontSize: 14, marginTop: 24, lineHeight: 1.7 }}>
