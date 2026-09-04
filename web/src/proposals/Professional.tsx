@@ -196,14 +196,16 @@ export default function Professional() {
               <div>
                 <h3>Provider choice</h3>
                 <p>
-                  Anthropic, OpenAI and DeepSeek are hosted services that receive your content. Don&rsquo;t want that?
-                  Local via Ollama keeps everything on-device. Your graph is a plain folder — plain Markdown, no
-                  lock-in — with optional Dropbox sync across machines.
+                  Three ways to power Hatch and Peck. <b>Kip AI</b> — our managed layer, no setup, tuned for the nest —
+                  is coming, but it&rsquo;s invite-only while we test. Today: bring your own Anthropic, OpenAI or DeepSeek
+                  key, or run Local via Ollama and keep everything on-device. Either way your graph stays a plain
+                  Markdown folder — no lock-in.
                 </p>
                 <ul className="pf-checklist">
-                  <li>Local provider (Ollama) keeps everything on-device</li>
-                  <li>Plain Markdown graph — no lock-in</li>
-                  <li>Notes sync; search cache and API keys stay on-device</li>
+                  <li>Kip AI — managed, no setup (invite-only, not live yet)</li>
+                  <li>Bring your own — Anthropic, OpenAI or DeepSeek (API key)</li>
+                  <li>Local via Ollama — everything on-device</li>
+                  <li>Plain Markdown graph, optional Dropbox sync — no lock-in</li>
                 </ul>
               </div>
               <div>
@@ -263,7 +265,7 @@ export default function Professional() {
             </div>
             <div className="pf-steps pf-fade">
               <div className="pf-step"><div><h4>Open a folder as your graph</h4><p>Everything Kip creates — <code>pages/</code>, <code>nest/</code>, <code>clucks/</code> — lives inside it.</p></div></div>
-              <div className="pf-step"><div><h4>Set an LLM provider</h4><p>Settings → LLM: Anthropic, OpenAI or DeepSeek (API key), or Local via Ollama. Hit <code>Test connection</code>.</p></div></div>
+              <div className="pf-step"><div><h4>Set an LLM provider</h4><p>Settings → LLM: Anthropic, OpenAI or DeepSeek (API key), or Local via Ollama. Hit <code>Test connection</code>. Once Kip AI ships, this step goes away.</p></div></div>
               <div className="pf-step"><div><h4>Drop a document</h4><p>Put a <code>.md</code> or <code>.txt</code> file into <code>&lt;graph&gt;/pages/</code>.</p></div></div>
               <div className="pf-step"><div><h4>Hatch it</h4><p>Header &ldquo;…&rdquo; menu → Hatch sources → Start. It becomes pages under The Nest.</p></div></div>
               <div className="pf-step"><div><h4>Peck</h4><p>Type a question in the prompt. Answers link back to the pages they came from.</p></div></div>
