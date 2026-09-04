@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import Switcher from './Switcher'
 import './professional.css'
 
 function useFade() {
@@ -69,7 +68,7 @@ export default function Professional() {
               <span className="pf-toggle-label">{dark ? 'dark' : 'light'}</span>
             </div>
             <div className="pf-ver">
-              v0.4.2 · free · agpl-3.0
+              v0.4 · free · agpl-3.0
               <br />
               windows 10/11 x64 · linux x64
               <br />
@@ -115,7 +114,7 @@ export default function Professional() {
                 <h3>Drop it in</h3>
                 <p>
                   Drag a Markdown, text, Word, Excel, PowerPoint or PDF file onto the window — or drop it in{' '}
-                  <code>eggs/</code>. Office and PDF files are converted to Markdown on the way in.
+                  <code>pages/</code>. Office and PDF files are converted to Markdown on the way in.
                 </p>
               </div>
               <div className="pf-row">
@@ -253,9 +252,9 @@ export default function Professional() {
               <p className="pf-h2-sub">The first five minutes, in order.</p>
             </div>
             <div className="pf-steps pf-fade">
-              <div className="pf-step"><div><h4>Open a folder as your graph</h4><p>Everything Kip creates — <code>eggs/</code>, <code>nest/</code>, <code>clucks/</code> — lives inside it.</p></div></div>
+              <div className="pf-step"><div><h4>Open a folder as your graph</h4><p>Everything Kip creates — <code>pages/</code>, <code>nest/</code>, <code>clucks/</code> — lives inside it.</p></div></div>
               <div className="pf-step"><div><h4>Set an LLM provider</h4><p>Settings → LLM: Anthropic, OpenAI or DeepSeek (API key), or Local via Ollama. Hit <code>Test connection</code>.</p></div></div>
-              <div className="pf-step"><div><h4>Drop a document</h4><p>Put a <code>.md</code> or <code>.txt</code> file into <code>&lt;graph&gt;/eggs/</code>.</p></div></div>
+              <div className="pf-step"><div><h4>Drop a document</h4><p>Put a <code>.md</code> or <code>.txt</code> file into <code>&lt;graph&gt;/pages/</code>.</p></div></div>
               <div className="pf-step"><div><h4>Hatch it</h4><p>Header &ldquo;…&rdquo; menu → Hatch sources → Start. It becomes pages under The Nest.</p></div></div>
               <div className="pf-step"><div><h4>Peck</h4><p>Type a question in the prompt. Answers link back to the pages they came from.</p></div></div>
               <div className="pf-step"><div><h4>Toggle the editor</h4><p><code>Ctrl/⌘ + 1</code> whenever you want to read or write notes directly.</p></div></div>
@@ -311,7 +310,7 @@ export default function Professional() {
               </div>
               <div>
                 <h5>get kip</h5>
-                <a href="https://github.com/JWE24-code/kip-app/releases" target="_blank" rel="noreferrer">Download v0.4.2</a>
+                <a href="https://github.com/JWE24-code/kip-app/releases" target="_blank" rel="noreferrer">Download</a>
                 <a href="https://github.com/JWE24-code/kip-app" target="_blank" rel="noreferrer">Source code</a>
                 <a href="https://github.com/JWE24-code/kip-app" target="_blank" rel="noreferrer">Getting-started guide</a>
               </div>
@@ -334,8 +333,6 @@ export default function Professional() {
           </footer>
         </main>
       </div>
-
-      <Switcher active="professional" />
     </div>
   )
 }
