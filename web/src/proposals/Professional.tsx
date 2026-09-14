@@ -68,7 +68,7 @@ export default function Professional() {
               <span className="pf-toggle-label">{dark ? 'dark' : 'light'}</span>
             </div>
             <div className="pf-ver">
-              v0.5 · free · agpl-3.0
+              v0.7 · free · agpl-3.0
               <br />
               windows 10/11 x64 · linux x64
               <br />
@@ -277,7 +277,7 @@ export default function Professional() {
           <section className="pf-block" id="pf-honest">
             <div className="pf-fade">
               <span className="pf-sec-no">05</span>
-              <h2 className="pf-h2">v0.5: early, rough, and looking for feedback</h2>
+              <h2 className="pf-h2">v0.7: early, rough, and looking for feedback</h2>
               <p className="pf-h2-sub">
                 Kip is a personal project at the beginning of its life. Here&rsquo;s exactly what that means, so you can
                 decide with open eyes.
@@ -288,7 +288,7 @@ export default function Professional() {
               <div className="pf-tr"><span className="pf-x">✕</span><span><b>Self-issued signing certificate.</b> There&rsquo;s an installer and in-app updates now, but SmartScreen still warns until there&rsquo;s a real cert.</span></div>
               <div className="pf-tr"><span className="pf-x">✕</span><span><b>Needs an LLM provider configured</b> — without one, Hatch and Peck don&rsquo;t work.</span></div>
               <div className="pf-tr"><span className="pf-x">✕</span><span><b>Skills run unsandboxed with your privileges</b> — one you add yourself is like running a shell script.</span></div>
-              <div className="pf-tr"><span className="pf-x">✕</span><span><b>Expect bugs and breaking changes.</b> It&rsquo;s v0.5, and it means it.</span></div>
+              <div className="pf-tr"><span className="pf-x">✕</span><span><b>Expect bugs and breaking changes.</b> It&rsquo;s v0.7, and it means it.</span></div>
               <div className="pf-tr"><span className="pf-x">✕</span><span><b>Honest bit:</b> <span className="pf-inline-code">.henhouse/llm.json</span> stores API keys in plaintext — keep that folder out of synced locations and version control.</span></div>
             </div>
             <p className="pf-fade" style={{ color: 'var(--mut)', fontSize: 14, marginTop: 24, lineHeight: 1.7 }}>
